@@ -1,21 +1,31 @@
-<link rel="stylesheet" href="style.css" type="text/css" media="all" />
-<div class="container noselect">
-  <div class="wrapper">
-    <button id="replay">
-      <i class="fas fa-play"></i>
-      RESTART
-    </button>
-    <div id="canvas">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="snake" content="">
+  <title>SNAKE GAME FOR PC</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+  <div class="container noselect">
+    <div class="wrapper">
+      <button id="replay">
+        <i class="fas fa-play"></i>
+        RESTART
+      </button>
+      <div id="canvas">
 
+      </div>
+      <div id="ui">
+        <h2>SCORE
+        </h2>
+        <span id="score">00</span>
+      </div>
     </div>
-    <div id="ui">
-      <h2>SCORE
-      </h2>
-      <span id="score">00</span>
+    <div id="author">
+      <h1>SNAKE</h1> <span>by Dillon</span>
     </div>
   </div>
-  <div id="author">
-    <h1>SNAKE</h1> <span>by Dillon</span>
-  </div>
-</div>
-<script src="script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
